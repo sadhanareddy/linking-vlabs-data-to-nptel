@@ -19,7 +19,7 @@ This is how we define a Knowledge Base (KB). It is a conceptual representation
 of a domain PLUS it is a set of assertions of instances of information that is 
 given in the conceptual representation.
 
-[[KB_Structure.png][]]
+[[images/KB_Structure.png]]
 Fig 1: Structure of our proposed Knowledge Base.
 
 ** Indian Academic Environment
@@ -58,7 +58,7 @@ We feel that to provide intelligence to Web Applications we need to have a
 proper knowledge base that is well representative of this unique academic
 environment in India.
 
-[[intelligent_web_apps.png][]]
+[[images/intelligent_web_apps.png]]
 Fig 2: Intelligence of Web Applications can come from having a back-end KB.
 
 *** Sample web applications that need KB
@@ -84,13 +84,13 @@ developing our KB. However, due to the popularity and ubiquity of Ontologies, we
 herewith restricting our work to such a representation only. That is, the
 conceptual representation of our domain will be implemented with Ontologies. 
 
-[[Ontology_interdepency.png][]]
+[[images/Ontology_interdepency.png]]
 Fig 3: Interdependency of Ontologies.
 
 In implementing Ontologies, we will utilize Protege, a tool developed by
 Stanford and promoted by University of Manchester.
 
-[[Protege_Desktop.png][]]
+[[images/Protege_Desktop.png]]
 Fig 4: Screenshot of our Ontology in Protege Desktop tool.
 
 * working with Ontologies
