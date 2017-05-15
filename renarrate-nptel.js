@@ -38,14 +38,14 @@
     linktag.rel = "stylesheet";
     linktag.type = "text/css";
     //using rawgit.com MaxCDN.. files directly linked to git repo 'webpage-transformation/master'
-    linktag.href = "https://cdn.rawgit.com/sadhanareddy/linking-vlabs-data-to-nptel/14f5f8e5/css/renarrate-nptel.css"; 
+    linktag.href = "https://cdn.rawgit.com/sadhanareddy/linking-vlabs-data-to-nptel/9ebf4a66/css/renarrate-nptel.css"; 
     document.getElementsByTagName('head')[0].appendChild(linktag);
 
     //appending a script tag to head element of a webpage, which is used to toggle the recommendations container.
     var script_tag = document.createElement('script');
     script_tag.type = "text/javascript";
     //using rawgit.com MaxCDN.. files directly linked to git repo 'webpage-transformation/master'
-    script_tag.src = "https://cdn.rawgit.com/sadhanareddy/linking-vlabs-data-to-nptel/14f5f8e5/renarrate-view-functions.js"; 
+    script_tag.src = "https://cdn.rawgit.com/sadhanareddy/linking-vlabs-data-to-nptel/9ebf4a66/renarrate-view-functions.js"; 
     document.getElementsByTagName('head')[0].appendChild(script_tag);	
         
 }());

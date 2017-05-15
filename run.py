@@ -37,7 +37,7 @@ def fetchNpteldata():
        for line in searchfile:
            if word in line:
                data.append(line)
-               print data
+               #print data
                #print str(line)
    searchfile.close()
    return jsonify(data)
