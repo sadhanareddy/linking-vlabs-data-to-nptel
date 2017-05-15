@@ -6,6 +6,8 @@
   xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             document.getElementsByTagName("body")[0].innerHTML =this.responseText;
+            //res = this.responseText;
+            //alert(res);
 	    }
   };
 }());
@@ -22,7 +24,7 @@
     main = document.createElement('div');
     main.id = 'main';
     body.appendChild(main);
-    main.innerHTML = "<span style='font-size:25px;cursor:pointer' onclick='openNav()'>&#9776; View Recommendations</span>";
+    main.innerHTML = "<span style='font-size:25px;cursor:pointer' onclick='openNav()'>&#9776; Renarrate NPTEL</span>";
     
     //appending a CSS stylesheet to head element of a webpage, which is used to stylize the recommendations container.
     var linktag = document.createElement('link');
