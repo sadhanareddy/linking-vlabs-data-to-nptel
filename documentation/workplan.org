@@ -1,0 +1,78 @@
+#+Title: Renarration demo for NPTEL
+
+* NPTEL renarrations ( Objectives )
++ Change Layout.
++ Change Language.
++ Show more info for each course.
+For this objectives we need a KB that has information on NPTEL,
+VLABS, GATE. We also need a mechanism to query the KB. Finally
+we need a mechanism to clasify the Knowledge in the current page
+for querying.
+
+* Knowledge Base
+We are planning to use ontology for representing domain knowledge of NPTEL, VLABS
+and may be even GATE.
+
+We may populate the individual data for the ontological concepts either 
+dynamically ( i.e., only when visitig NPTEL or VLABS website ) or statically
+once before hand. For first implementation we are going with  limited 
+static approach.
+
+Our knowledge base may be an owl file stored on some cloud database
+that is queriable from server/client.
+ 
+** Implemnetation details
++ T-box transactions for courses, faculty, university... need to be defined.
+
++ A-box assertions for above T-box transactions need to be populated.
+
++ A owl file containing a T,A box ( knowledge Base ) should be created.
+
+* Interacting with KB 
++ Given some meta info extracted from either or NPTEL or VLABS site we
+should be able to query KB ( may be by using SPARQL ) to get other 
+related info.
+
++ Develop SPARQL query mechanism to get additional info from KB based on
+meta info obtained from NPTEL, VLABS site.
+
+** Types of NPTEL queries 
++ Other course taught by this professor.
++ Other courses that are similar to this course.
++ Prerequisites for this course.
++ References for this course.
++ Labs for this course.
++ Gate questions for this course.
+
+* Extracting meta info from sites
++ Be able to extract and populate NPTEL structure from NPTEL site.
+
++ Be able to extract and populate vlabs structure from Vlabs site
+
++ Based on info in the data structure query knowledge base for additional info.
+
++ Analyse and show new info in new way. ( This is renarration )
+
+** Data structure for NPTEL
++ Come up with the Data structure ( JSON ?) for NPTEL site.
++ This should include lot of video related meta data like 
+   - course name
+   - faculty name
+   - video data
+   - prerequisites
+
+** Data structure for VLABS
++ Come up with data structure ( JSON?) for vlabs. 
++ This should include
+  - Subject 
+  - no of exps...
+
+** Data structure for GATE
+This is yet to be implemented.
++ Come up with data structure ( JSON?) for GATE. 
++ This should include
+  - Subject
+  - Questions,
+  - Ans...
+Look at online syllabus for more info.
+
