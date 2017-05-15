@@ -5,10 +5,17 @@
   xhttp.send(null);
   xhttp.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
-            document.getElementsByTagName("body")[0].innerHTML =this.responseText;
-            //res = this.responseText;
-            //alert(res);
-	    }
+            response = this.responseText;
+            newlist = eval(response);
+            arrayLength = newlist.length;
+            for (var i = 0; i < arrayLength; i++) {
+                var anchortag = document.createElement('a');
+                anchortag.setAttribute('href',"");
+                anchortag.innerHTML = newlist[i];
+                alert(anchortag);
+                document.getElementById('mySidenav').appendChild(anchortag);
+            }
+        }
   };
 }());
 

@@ -33,7 +33,7 @@ def fetchNpteldata():
    #return redirect(url_for('queryData'))
    data = []
    for word in keywords:
-       searchfile = open("https://cdn.rawgit.com/sadhanareddy/linking-vlabs-data-to-nptel/356d4e5d/vlabsmetadata.txt", "r")
+       searchfile = open("/home/sadhana/renarration_project/link-nptel-to-vlabs/v2.1_nptel_linking/vlabsmetadata.txt", "r")
        for line in searchfile:
            if word in line:
                data.append(line)
