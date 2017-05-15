@@ -1,1 +1,1 @@
-# linking-vlabs-data-to-nptel
+# NPTEL demo
