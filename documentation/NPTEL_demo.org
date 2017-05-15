@@ -5,7 +5,7 @@
 * Introduction
 We are looking to showcase how Renarration can be effectively applied to NPTEL
 to increase its accessibility. In the process, we aim to also associate Virtual
-Labs with this effort, as it too is yet another India MSHRD effort for the
+Labs with this effort, as it too is yet another India MHRD effort for the
 betterment of student education.
 
 
