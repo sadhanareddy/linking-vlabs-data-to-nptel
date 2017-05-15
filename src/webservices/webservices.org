@@ -1,0 +1,104 @@
+#+Title: Webservices for renarrating NPTEL page
+#+Date: [13-05-2017, sat] 
+#+author: Sadhana
+
+* Requirements
++ Requirement is to build webservices for renarrating the NPTEL page.
+  ++ Displaying vlabs data on NPTEL page as recommendations list.
+  ++ changing the layout of the NPTEL web page. 
+
+  
+* Imports 
+** Imports for Python API
+Following are the imports used.
+
+#+BEGIN_SRC python :tangle ../../code/webservices/run.py :eval no
+
+from flask import Flask
+from flask import request, redirect
+from flask_cors import CORS
+from flask import request
+import requests as req
+import urllib2
+from bs4 import BeautifulSoup
+import json
+from flask import jsonify
+app = Flask(__name__)
+CORS(app)
+
+#+END_SRC
+
+
+* API for Renarrating NPTEL page 
+Following is the code for renarrating the NPTEL page.  Here the API
+crawls the web page, gets the keywords, and stores it in a list. Then
+opens a .txt file which, has vlabs meta data and checks for the
+keywords related content. If the content exits it will be displayed as
+a recommendations list on the NPTEL web page.
+
+#+BEGIN_SRC python :tangle ../../code/webservices/run.py :eval no
+
+@app.route('/fetchNptel_metadata', methods=['GET'])
+def fetchNpteldata():
+   page = urllib2.urlopen('http://nptel.ac.in').read()
+   soup = BeautifulSoup(page)
+   # kill all script and style elements
+   for script in soup(["script", "style"]):
+       script.extract()    # rip it out
+   text = soup.get_text()
+   # break into lines and remove leading and trailing space on each
+   lines = (line.strip() for line in text.splitlines())
+   # break multi-headlines into a line each
+   chunks = (phrase.strip() for line in lines for phrase in line.split("  "))
+   # drop blank lines
+   text = '\n'.join(chunk for chunk in chunks if chunk)
+   global keywords
+   keywords = text.split()
+   keywords = list(set(keywords))
+   data = []
+   for word in keywords:
+       searchfile = open("/home/sadhana/renarration_project/link-nptel-to-vlabs/v2.1_nptel_linking/vlabsmetadata.txt", "r")
+       for line in searchfile:
+           if word in line:
+               data.append(line)
+   searchfile.close()
+   return jsonify(data)
+  
+#+END_SRC
+
+
+* Run 
+Running the webservice
+
+#+BEGIN_SRC python :tangle ../../code/webservices/run.py :eval no
+
+if __name__ == '__main__':
+   app.run(debug=True)
+
+#+END_SRC
+
+
+* Dependencies
+Following lists the dependencies required for running the webservices
+
+#+BEGIN_SRC python :tangle ../../code/webservices/setup.sh :eval no
+
+#! bash script for setting up enviornment for web services
+
+sudo apt-get install python-virtualenv
+
+virtualenv flask
+
+flask/bin/pip install flask
+
+flask/bin/pip install conf
+
+flask/bin/pip install -U flask-cors
+
+flask/bin/pip install requests
+
+flask/bin/pip install  beautifulsoup4
+
+flask/bin/pip install  jsonify
+
+#+END_SRC

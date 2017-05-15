@@ -1,0 +1,2336 @@
+<?xml version="1.0"?>
+<Ontology xmlns="http://www.w3.org/2002/07/owl#"
+     xml:base="http://www.semanticweb.org/saigo/ontologies/2017/4/IN-academic"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     ontologyIRI="http://www.semanticweb.org/saigo/ontologies/2017/4/IN-academic">
+    <Prefix name="" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="owl" IRI="http://www.w3.org/2002/07/owl#"/>
+    <Prefix name="rdf" IRI="http://www.w3.org/1999/02/22-rdf-syntax-ns#"/>
+    <Prefix name="xml" IRI="http://www.w3.org/XML/1998/namespace"/>
+    <Prefix name="xsd" IRI="http://www.w3.org/2001/XMLSchema#"/>
+    <Prefix name="rdfs" IRI="http://www.w3.org/2000/01/rdf-schema#"/>
+    <Declaration>
+        <NamedIndividual IRI="#Linux_Lab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Ashitava_Ghosal"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#TF"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#PaperCode"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numerical_Ability"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#NonEngineering"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is-taught-by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Discipline"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal_Ability"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IISc-Bangalore"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Problem_Solving"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has-name"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AR"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#BT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MA"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-instructor"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Topic"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Subject"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software_Engineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal_Deduction"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numerical_Reasoning"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_Mining"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Course"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Instructions"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is-host-institute-for"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Faculty"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Critical_Reasoning"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Sentence_Completion"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Gate"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numerical_Computation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Engineering"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_Organization"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Data_Interpretation"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Numerical_Estimation"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Image_Processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artificial_Intelligence2"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rushikesh_K_Joshi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#is-instructor-for"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Anupam_Basu"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#D_Janaki_Ram"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PI"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Word_Groups"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Amrita_University"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EC"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIT-Kanpur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#GG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CH"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MT"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artificial_Intelligence1"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S_Srinivasan"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#principles_of_programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Databases"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CY"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is-NPTEL"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is-described-by"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Academic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S_Srinath"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#P_P_Chakraborty"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Data_Structures"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#VLSI"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#is-VLABS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#CoreTopic"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#ME"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has-email"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S_Sarkar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#EE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#MN"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#COE_PUNE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IN"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-sponsored"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Verbal_Analogies"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Cryptography"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#XL"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#English_Grammar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIIT-Bangalore"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#S_Arun_Kumar"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Database_Design"/>
+    </Declaration>
+    <Declaration>
+        <DataProperty IRI="#has_web_page"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#University"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Venkatesh_Choppella"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Rajesh_M_Hegde"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#General_Aptitude"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#AG"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+    </Declaration>
+    <Declaration>
+        <ObjectProperty IRI="#has-host-instituition"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#CS"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Section"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#PE"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#Computer_Programming"/>
+    </Declaration>
+    <Declaration>
+        <Class IRI="#Common"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </Declaration>
+    <Declaration>
+        <NamedIndividual IRI="#IIT-Madras"/>
+    </Declaration>
+    <SubClassOf>
+        <Class IRI="#Common"/>
+        <Class IRI="#Gate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#CoreTopic"/>
+        <Class IRI="#Section"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Critical_Reasoning"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Data_Interpretation"/>
+        <Class IRI="#Numerical_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Discipline"/>
+        <Class IRI="#Academic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Engineering"/>
+        <Class IRI="#Discipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#English_Grammar"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#General_Aptitude"/>
+        <Class IRI="#Common"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Instructions"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#NonEngineering"/>
+        <Class IRI="#Discipline"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numerical_Ability"/>
+        <Class IRI="#General_Aptitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numerical_Computation"/>
+        <Class IRI="#Numerical_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numerical_Estimation"/>
+        <Class IRI="#Numerical_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Numerical_Reasoning"/>
+        <Class IRI="#Numerical_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#PaperCode"/>
+        <Class IRI="#Gate"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Section"/>
+        <Class IRI="#PaperCode"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Sentence_Completion"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Subject"/>
+        <Class IRI="#Academic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Topic"/>
+        <Class IRI="#CoreTopic"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal_Ability"/>
+        <Class IRI="#General_Aptitude"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal_Analogies"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Verbal_Deduction"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <SubClassOf>
+        <Class IRI="#Word_Groups"/>
+        <Class IRI="#Verbal_Ability"/>
+    </SubClassOf>
+    <DisjointUnion>
+        <Class IRI="#Course"/>
+        <Class IRI="#Course"/>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#University"/>
+    </DisjointUnion>
+    <DisjointUnion>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#Course"/>
+        <Class IRI="#Faculty"/>
+        <Class IRI="#University"/>
+    </DisjointUnion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#AE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#AG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#AR"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Anupam_Basu"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Artificial_Intelligence1"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Artificial_Intelligence2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Ashitava_Ghosal"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#BT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#CE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#CH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#COE_PUNE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#CS"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#CY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Computer_Organization"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Computer_Programming"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Cryptography"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#D_Janaki_Ram"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Data_Mining"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Data_Structures"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Database_Design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Databases"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#EC"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#EE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#EY"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#GG"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIIT-Bangalore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IISc-Bangalore"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIT-Kanpur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#University"/>
+        <NamedIndividual IRI="#IIT-Madras"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#IN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Image_Processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Linux_Lab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#MA"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#ME"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#MN"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#MT"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#PE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#PH"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#PI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#P_P_Chakraborty"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Problem_Solving"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Rajesh_M_Hegde"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Rushikesh_K_Joshi"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#S_Arun_Kumar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#S_Sarkar"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#S_Srinath"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#S_Srinivasan"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#TF"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#VLSI"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Faculty"/>
+        <NamedIndividual IRI="#Venkatesh_Choppella"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#XE"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#PaperCode"/>
+        <NamedIndividual IRI="#XL"/>
+    </ClassAssertion>
+    <ClassAssertion>
+        <Class IRI="#Course"/>
+        <NamedIndividual IRI="#principles_of_programming_Languages"/>
+    </ClassAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#Anupam_Basu"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Artificial_Intelligence1"/>
+        <NamedIndividual IRI="#S_Sarkar"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#Ashitava_Ghosal"/>
+        <NamedIndividual IRI="#IISc-Bangalore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#Ashitava_Ghosal"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Computer_Organization"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Computer_Programming"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Cryptography"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#D_Janaki_Ram"/>
+        <NamedIndividual IRI="#IIT-Madras"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#D_Janaki_Ram"/>
+        <NamedIndividual IRI="#Database_Design"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Data_Mining"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Data_Structures"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Databases"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+        <NamedIndividual IRI="#COE_PUNE"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Image_Processing"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Linux_Lab"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#P_P_Chakraborty"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#P_P_Chakraborty"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+        <NamedIndividual IRI="#P_P_Chakraborty"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#Rajesh_M_Hegde"/>
+        <NamedIndividual IRI="#IIT-Kanpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+        <NamedIndividual IRI="#IISc-Bangalore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+        <NamedIndividual IRI="#Ashitava_Ghosal"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#Rushikesh_K_Joshi"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#S_Arun_Kumar"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#S_Arun_Kumar"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#S_Sarkar"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#S_Srinath"/>
+        <NamedIndividual IRI="#IIIT-Bangalore"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#S_Srinath"/>
+        <NamedIndividual IRI="#Database_Design"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#S_Srinivasan"/>
+        <NamedIndividual IRI="#IIT-Madras"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#S_Srinivasan"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+        <NamedIndividual IRI="#IIT-Kanpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+        <NamedIndividual IRI="#Rajesh_M_Hegde"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <NamedIndividual IRI="#Rushikesh_K_Joshi"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#VLSI"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <NamedIndividual IRI="#Venkatesh_Choppella"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+    </ObjectPropertyAssertion>
+    <ObjectPropertyAssertion>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+    </ObjectPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#AE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Aerospace Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#AG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Agricultural Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#AR"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Architecture and Planning</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Amrita University</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.amrita.edu/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Amrita_University"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Analog CMOS VLSI Circuit Design</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Analog_CMOS_VLSI_Circuit_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The lab explains the design of analog CMOS circuits starting from specifications, design and simulation. The lab presents the basic analog building blocks and circuit topologies design and characterization.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Anupam_Basu"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Anupam Basu</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Artificial Neural Networks</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Artificial_Neural_Networks"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The objective of this lab is to provide hands-on experience in understanding the basics of ANN models, and the pattern recognition tasks they perform. Some applications of ANN for problems in optimization and image processing will also be explored through these lab experiments.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Ashitava_Ghosal"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ashitava Ghosal</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#BT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Biotechnology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#CE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Civil Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#CH"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chemical Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#COE_PUNE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">College of Engineering, Pune</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#COE_PUNE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.coep.org.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#CS"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computer Science and Information Technology</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#CY"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Chemistry</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computational Linguistics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Computational_Linguistics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The objective of Computational Linguistics lab is to re-orient students of linguistics to the computational aspects of language analysis. At the same time, students coming from backgrounds other than linguistics will be introduced to linguistic concepts, terminology and analysis.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computer Graphics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Computer_Graphics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">To understand the different concepts of graphics. We will go through understanding the concepts of 3D Coordinate systems, Transformations, Hierarchical modelling and Cameras. Later we will be visualising some basic algorithms used to render the graphics.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computer Organisation and Architecture</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Computer_Organisation_and_Architecture"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Objective is to Expose the students to the various key aspects of Computer Organisation &amp; Architecture by enabling them to perform FPGA based prototyping of experiments with support of a virtual environment.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Computer_Organization"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computer Organization</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Computer_Organization"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Computer_Organization"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Computer_Organization"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This lab is about various approaches for representing integers and floating-point numbers in binary and, their pros and cons.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Computer_Programming"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Computer Programming</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Computer_Programming"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Computer_Programming"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Computer_Programming"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The interactive experiments in this lab will give the students an opportunity for learning and better understanding of the basic concepts and constructs of computer programming.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Cryptography"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Cryptography</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Cryptography"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Cryptography"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Cryptography"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">In this lab, we will do virtual experiments to understand the basic mathematical foundations of cryptography,to gain insightful experience by working with fundamental cryptographic applications and to train in the art of design and analysis of information security protocols.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#D_Janaki_Ram"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">D. Janaki Ram</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#D_Janaki_Ram"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://dos.iitm.ac.in/people/djbio.shtml</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Data_Mining"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Data Mining</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Data_Mining"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Data_Mining"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Data_Mining"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Data Mining virtual lab provides a platform for students to understand the concepts of Data mining and their application.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Data_Structures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Data Structures</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Data_Structures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Data_Structures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Data_Structures"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">To understand some important applications of various data structures. To familiarize how certain applications can benefit from the choice of data structures. To understand how the choice of data structures can lead to efficient implementations of algorithms.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Database_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Database Design</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Database_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/106106093/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Database_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Database_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Databases"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Databases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Databases"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Databases"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Databases"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This lab is intended to complement an introductory course on databases with practice sessions on designing, creating, modifying and querying databases.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Digital Logic Design</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Digital_Logic_Design"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Here you can make basic combinational and sequential digital circuits of your choice and simulate them.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#EC"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Electronics and Communications</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#EE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Electrical Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#EY"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Ecology and Evolution</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Embedded Systems</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/108102045/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Embedded_Systems"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FPGA and Digital Design Lab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#FPGA_and_Digital_Design_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">&lt;under construction; upcoming lab&gt;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">FPGA and Embedded Systems Lab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#FPGA_and_Embedded_System_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This lab is a great tool if you are new to developing embedded systems on FPGAs and explains not only the &quot;how&quot; but also the &quot;why&quot;.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#GG"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Geology and Geophysics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIIT-Bangalore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIIT Bangalore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIIT-Bangalore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.iiitb.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIIT Hyderabad</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIIT-Hyd"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.iiit.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IISc-Bangalore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IISc Bangalore</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IISc-Bangalore"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.iisc.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIT Bombay</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIT-Bombay"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.iitb.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIT Delhi</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIT-Delhi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.iitd.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIT-Kanpur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIT Kanpur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIT-Kanpur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://iitk.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIT Kharagpur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIT-Kharagpur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://iitkgp.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IIT-Madras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">IIT Madras</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#IIT-Madras"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.iitm.ac.in/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#IN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Instrumentation Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Image_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Image Processing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Image_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Image_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Image_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The primary objective of this virtual lab is to supplement an undergraduate level course on image processing and enable students to understand the subject better. The lab is intended to help in clarifying concepts. It is not intended for learning how to write code to do image processing.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Linux_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Linux Lab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Linux_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Linux_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Linux_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The objective of this lab is to make students familiar with the Linux command-line environment. This lab also promotes basic understanding of system administration processes by providing a hands-on experience. It is expected that by using this lab the students will become comfortable in working with a Linux machine.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#MA"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mathematics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#ME"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mechanical Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#MN"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mining Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#MT"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Metallurgical Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Mobile Robotics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Mobile_Robotics"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The virtual lab on Mobile Robotics is designed to supplement a senior undergraduate or graduate level course in Mobile Robotics. The experiments are designed to improve the clarity in understanding of the basic concepts as well as to enable the student to put them into practical use.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">N. L. Sarda</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#N_L_Sarda"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cse.iitb.ac.in/~nls/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Natural Language Processing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Natural_Language_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The objective of Natural Language Processing lab is to introduce the students with the basics of NLP which will empower them for developing advanced NLP tools and solving practical problems in the field.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Optical Remote Sensing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Optical_Remote_Sensing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The Optical Remote Sensing Virtual Lab will help the students comprehend, learn and understand the mechanisms of image capture in satellite and airborne optical remote sensing sensors, their design considerations and limitations.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#PE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Petroleum Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#PH"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Physics</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#PI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Production and Industrial Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#P_P_Chakraborty"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">P. P. Chakraborty</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Pattern Recognition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Pattern_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The virtual lab on Pattern Recognition is design to supplement a senior undergraduate or graduate level course in Statistical Pattern Recognition. The experiments are designed to improve the clarity in understanding of the basic concepts as well as to enable the student to put them into practical use.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Databases</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Principles of Programming Languages</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The objective of this lab is to build your own little programming languages using the principles described in the book Essentials of Programming Languages, 3rd Ed. (EOPL) by Friedman and Wand.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Principles_of_Programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This lab is intended to complement an introductory course on databases with practice sessions on designing, creating, modifying and querying databases.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Problem_Solving"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Problem Solving</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Problem_Solving"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://vlabs.ac.in/courses/course-v1:IIIT-Hyderabad+CSE04+Anytime/about#</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Problem_Solving"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Problem_Solving"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Problem_Solving"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The interactive experiments in this lab will give the students an opportunity for learning and better understanding of using computer programming as a tool to solve basic to advanced problems.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Programming and Data Structure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The basic thrust of this Lab will be to learn programming languages and implementing data structures.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Programming and Data Structure</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/106105085/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Programming_and_Data_Structure2"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Rajesh_M_Hegde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Rajesh M. Hegde</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Rajesh_M_Hegde"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://home.iitk.ac.in/~rhegde/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Robotics: Advanced Concepts and Analysis</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/112108093/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Robotics_Advanced_Concepts_and_Analysis"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Rushikesh_K_Joshi"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cse.iitb.ac.in/~rkj/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#S_Arun_Kumar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S. Arun Kumar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#S_Arun_Kumar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.cse.iitd.ernet.in/~sak/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#S_Sarkar"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S Sarkar</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#S_Srinath"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S. Srinath</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#S_Srinivasan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">S. Srinivasan</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#S_Srinivasan"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://www.ee.iitm.ac.in/vlsi/people/srini</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Santanu Chaudhary</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Santanu_Chaudhary"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://web.iitd.ac.in/~santanuc/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Signal Processing Techniques for Speech Recognition</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/syllabus/117104023/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Signal_Processing_Techniques_for_Speech_Recognition"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Software Engineering</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/106101061/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Software_Engineering"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Software Engineering Lab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Software_Engineering_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This lab attempts to provide basic concepts to the students on a wide range of topics including Requirements analysis, ER modeling, identification of domain classes, use-case diagrams, designing a test suite.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Speech Signal Processing</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Speech_Signal_Processing"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">The objective of this lab is to provide hands on experience in processing speech signals for extraction of information for various applications.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#TF"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Textile Engineering and Fibre Science</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Umesh Bellur</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#Umesh_Bellur"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">https://www.cse.iitb.ac.in/~umesh/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#VLSI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">VLSI</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#VLSI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#VLSI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#VLSI"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This lab provides good understanding and learning opportunity of VLSI designing for users.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">VLSI Circuits</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/117106092/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">1</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#VLSI_Circuits"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Venkatesh_Choppella"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Venkatesh Choppella</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Virtual Advanced VLSI Lab</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Virtual_Advanced_VLSI_Lab"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">This Virtual Lab program is designed as a second level course in VLSI after completion of basic courses. A student should have knowledge Basic Electronic Circuits and Introduction to VLSI to get maximum profit from this lab program. The lab contrues the notion of developing integrated circuits and optimizing various parameters of its performance.</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Virtual Wireless and Security</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-described-by"/>
+        <NamedIndividual IRI="#Virtual_Wireless_and_Security"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">&lt;under construction; upcoming lab&gt;</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#XE"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Engineering Sciences</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has-name"/>
+        <NamedIndividual IRI="#XL"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#string">Life Sciences</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#has_web_page"/>
+        <NamedIndividual IRI="#principles_of_programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#anyURI">http://nptel.ac.in/courses/106102067/</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-NPTEL"/>
+        <NamedIndividual IRI="#principles_of_programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">true</Literal>
+    </DataPropertyAssertion>
+    <DataPropertyAssertion>
+        <DataProperty IRI="#is-VLABS"/>
+        <NamedIndividual IRI="#principles_of_programming_Languages"/>
+        <Literal datatypeIRI="http://www.w3.org/2001/XMLSchema#boolean">false</Literal>
+    </DataPropertyAssertion>
+    <EquivalentObjectProperties>
+        <ObjectProperty IRI="#has-instructor"/>
+        <ObjectProperty IRI="#is-taught-by"/>
+    </EquivalentObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <ObjectProperty IRI="#is-host-institute-for"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-instructor"/>
+        <ObjectProperty IRI="#is-instructor-for"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#has-sponsored"/>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+    </InverseObjectProperties>
+    <InverseObjectProperties>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <ObjectProperty IRI="#is-taught-by"/>
+    </InverseObjectProperties>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-instructor"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#has-sponsored"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is-host-institute-for"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyDomain>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyDomain>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-host-instituition"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-instructor"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#has-sponsored"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is-host-institute-for"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is-instructor-for"/>
+        <Class IRI="#Course"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is-sponsored-by"/>
+        <Class IRI="#University"/>
+    </ObjectPropertyRange>
+    <ObjectPropertyRange>
+        <ObjectProperty IRI="#is-taught-by"/>
+        <Class IRI="#Faculty"/>
+    </ObjectPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has-email"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has-email"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has-name"/>
+        <Datatype abbreviatedIRI="xsd:Name"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#has_web_page"/>
+        <Datatype abbreviatedIRI="xsd:anyURI"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is-NPTEL"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is-VLABS"/>
+        <Datatype abbreviatedIRI="xsd:boolean"/>
+    </DataPropertyRange>
+    <DataPropertyRange>
+        <DataProperty IRI="#is-described-by"/>
+        <Datatype abbreviatedIRI="xsd:string"/>
+    </DataPropertyRange>
+</Ontology>
+
+
+
+<!-- Generated by the OWL API (version 4.1.3.20151118-2017) https://github.com/owlcs/owlapi -->
+

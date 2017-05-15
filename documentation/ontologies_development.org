@@ -1,0 +1,163 @@
+#+TITLE: Guidance for developing Knowledge Base for Indian Academic Environment
+#+AUTHOR: Sai Gollapudi
+#+DATE: 14 May, 2017
+
+* Introduction
+Our main goal is to come up with a Knowledge Base (KB) that is specifically for Indian Academic
+environment. This should capture the academic concepts related to NPTEL video
+courses, Virtual Lab experiments, GATE syllabus and Academic degree syllabus
+that Universities and their Affiliates use.
+
+Our scope is not to make an exhaustive KB but to make a representative
+prototype. 
+
+We will use indicative and representative samples of course, university, lab,
+video material to showcase the value of having such a KB. 
+
+** Knowledge Base (KB)- our notion
+This is how we define a Knowledge Base (KB). It is a conceptual representation
+of a domain PLUS it is a set of assertions of instances of information that is 
+given in the conceptual representation.
+
+[[KB_Structure.png][]]
+Fig 1: Structure of our proposed Knowledge Base.
+
+** Indian Academic Environment
+Indian academic environment is of significance because of its scale and
+uniqueness. Also, this unique environment is under represented in knowledge
+bases. 
+
+For our usage,  we are considering currently only including the academic
+material related to NPTEL, Virtual Labs (both MSHRD initiatives), and also
+GATE-syllabus. Also, in India, we have the notion of a single University
+catering to multiple Affiliate colleges. So, some University structures that
+reflect this would also need to be included in our model.
+
+*** GATE-syllabus
+GATE is a pan India competitive exam used for higher studies in universities. It is
+similar to GRE and GMAT. Indian GATE exam is highly competitive in that
+millions of students are impacted by it. Every year over 800,000 students
+participate in it. GATE exams have been in place for past couple of decades. As a
+result, there is a history, consistency, system and discipline to these GATE
+exams. Also, as the topics represented in GATE are universal to all Science and
+Engineering students (across the world), the web is full of such related
+content. However, that content may be scattered and not be tuned and aligned to the GATE
+preparatory orientation that we are seeking in our conceptual model. Our work
+is to create an umbrella relationship between such disjoint material and
+constrain it in exam-preparatory or pedagogical framework.
+
+** Motivation 
+Indian academic environment is large in scale. Every year millions of students
+participate in University courses, take competitive exams and search on topics
+related to course syllabus. 
+
+GATE exam alone has hundreds of thousands of participants. Its history, format
+and preparatory material is quite well defined. 
+
+We feel that to provide intelligence to Web Applications we need to have a
+proper knowledge base that is well representative of this unique academic
+environment in India.
+
+[[intelligent_web_apps.png][]]
+Fig 2: Intelligence of Web Applications can come from having a back-end KB.
+
+*** Sample web applications that need KB
+A GATE preparatory web app can depend on KB to recommend new learning material,
+suggest new links, correlate question to an answer etc.
+
+A NPTEL page or a Virtual Lab page may be renarrated with new alternate views
+containing information that is obtained by processing queries to our KB.
+
+A student learning or teacher instructing related web apps can also be
+developed that navigate the KB to offer complex suggestions and give new
+insight to students and instructors alike.
+
+** Scope 
+We aim to develop only a representative conceptual model. For our purposes we
+will use the GATE exam specifics for year 2017, as published by Indian
+Govt. For University, NPTEL, Virtual Lab information, we will only rely on
+publicly available information (searched during May, 2017 timeframe). 
+
+* Approach
+There are indeed many types of Semantic representations that are possible for
+developing our KB. However, due to the popularity and ubiquity of Ontologies, we are
+herewith restricting our work to such a representation only. That is, the
+conceptual representation of our domain will be implemented with Ontologies. 
+
+[[Ontology_interdepency.png][]]
+Fig 3: Interdependency of Ontologies.
+
+In implementing Ontologies, we will utilize Protege, a tool developed by
+Stanford and promoted by University of Manchester.
+
+[[Protege_Desktop.png][]]
+Fig 4: Screenshot of our Ontology in Protege Desktop tool.
+
+* working with Ontologies
+As indicated by Figure #3, there are quite a few pre-existing Ontologies that
+we can utilize in our development of our KB.
+
+** Interdependency with existing Ontologies 
+We scanned the existing Ontology databases for GATE, University, Exam etc. We
+also scanned them for related key words (derived from synonyms). We found FOAF
+for people representation. We found X for Bloom. For exams we found. We used
+the represent our 
+
+GATE Syllabus is the central part of the ontology
+The other parts include
+- Q&A or exam taxonomy (for structuring GATE)
+- Bloom's Taxonomy (for a topic)
+- FOAF (for students and faculty)
+
+** Some challenges with knowledge representation:
+- do we represent knowledge (A-BOXes) in a single OWL file?
+- Or, do we have additional files for assertions? 
+- And, assuming the presence of additional files
+  - how do we link the A-BOX with T-BOX
+  - when do we associate the two? statically (that is have a static knowledge
+    base). Or, dynamically, that is, users can keep adding and deleting from
+    these relationships 
+
+** KB Development plan
+in v1.0 we have a integrated KB
+in v2.0 we have a seperate file for assertions which is statically configured
+in v3.0 we have a dynamically configured, external assertion A-BOX file that is controlled by user
+
+
+* Methodology
+The development of our proposed KB can be divided into the following parts.
+++ Development of the Conceptual Representation (Ontology) for our domain
+++ Development of the predicates / assertions that instantiate our Ontology
+++ Guidance for quering and analyzing our KB
+++ A user interface for interacting with our KB
+
+** Development of the Ontology for our KB
+There are many methods for developing an Ontology. However, we are following
+the tutorial published by University of Manchester. 
+
+[[academic.owl][Here]] is a sample of the ontology that we are currently experimenting with. It
+has its limitations. We see that a new more finer decomposition is
+needed. However, for historic records we are including [[academic.owl][this]] preliminary
+version.
+
+Going forward we foresee the need to have multiple, separate Ontologies that
+co-exist and that are also linked through our own upper level, integrating
+ontology. This has been shown in Figure #3.
+
+Development of such a conceptual model would require a methodology which is
+given below...
+
+*** Verification questions
+According to the topdown strategy, we need to have some Verification Questions
+that link our development efforts to the overall purpose of the Ontology. Here
+are the verification questions:
+
+*** People oriented Verification Questions
+Student related to this Ontology include:
+- name?
+- affiliated instituition
+- 
+
+*** Faculty oriented verification questions
+
+

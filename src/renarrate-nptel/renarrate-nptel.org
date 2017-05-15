@@ -1,3 +1,20 @@
+#+Title: Renarrate NPTEL Tool
+#+Date: [13-05-2017, sat] 
+#+author: Sadhana
+
++ The source is written in JavaScript.
+
+To run this program you need to run the webservice. After service is
+successfully running go to Renarrate NPTEL Tool!.
+
+* Function =fetchNptel_metadata()=
+This function calls a webservice and displays the response of the
+webservice on a web page.( Here the response from a webservice is a
+list which, is iterated and its content gets displayed on a web
+page.)
+
+#+BEGIN_SRC js :tangle ../../code/renarrate-nptel/renarrate-nptel.js :eval no
+
 (function fetchNptel_metadata(){
   var xhttp = new XMLHttpRequest();
   xhttp.open("GET", "//localhost:5000/fetchNptel_metadata", true); 
@@ -18,15 +35,25 @@
   };
 }());
 
+
+#+END_SRC
+
+
+* Function =recommendationsContainer()=
+This function creates a div, link and script tag and are appended into
+the body element of a web page.
+
+#+BEGIN_SRC js :tangle ../../code/renarrate-nptel/renarrate-nptel.js :eval no
+
 (function recommendationsContainer(){
     var body = document.getElementsByTagName('body')[0];
+    //appending a div tags to the body element of the web page.
     container = document.createElement('div');
     container.id = 'mySidenav';
     container.className = 'sidenav';
     body.appendChild(container);
     container.innerHTML = "<a href='javascript:void(0)' class='closebtn' onclick='closeNav()'>&times;</a>";
-
-
+   
     main = document.createElement('div');
     main.id = 'main';
     body.appendChild(main);
@@ -49,7 +76,32 @@
         
 }());
 
+#+END_SRC
 
 
+* function =openNav()=
+Function used to open the recommendations list container.
+
+#+BEGIN_SRC js :tangle ../../code/renarrate-nptel/renarrate-view-functions.js :eval no
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "265px";
+    document.getElementById("main").style.marginLeft = "265px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+#+END_SRC
 
 
+* function =closeNav()=
+Function used to close the recommendations list container.
+
+#+BEGIN_SRC js :tangle ../../code/renarrate-nptel/renarrate-view-functions.js :eval no
+
+function openNav() {
+    document.getElementById("mySidenav").style.width = "265px";
+    document.getElementById("main").style.marginLeft = "265px";
+    document.body.style.backgroundColor = "rgba(0,0,0,0.4)";
+}
+
+#+END_SRC
