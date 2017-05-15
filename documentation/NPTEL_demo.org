@@ -13,20 +13,20 @@ betterment of student education.
 Our approach is to develop the demo in increments. 
 + Demo V1.0: Apply multiple Renarration techniques to existing NPTEL pages and
   show how it meets a critical accessibility need for NPTEL.
-  ++ Demo V1.0: Shows a static NPTEL page being modified by various Bookmarklet
+  - Demo V1.0: Shows a static NPTEL page being modified by various Bookmarklet
   oriented renarration modifications.
-  ++ Demo V1.1: Renders a static NPTEL page in a novel way. That is, present
+  - Demo V1.1: Renders a static NPTEL page in a novel way. That is, present
   the original NPTEL source in an alternate view. This shows how a
   user institution can customize the generic page of NPTEL to their specific
   community purposes.
-  ++ Demo V1.2: Augment the alternate rendering of a NPTEL page with
+  - Demo V1.2: Augment the alternate rendering of a NPTEL page with
   information that is currently not present in source NPTEL page. This can be
   static information obtained from a file.
-  ++ Demo V1.3: Augment the alternate rendering with configurable data 
-  ++ Demo V1.4: Augment the alternate rendering with NPTEL page-extracted data
+  - Demo V1.3: Augment the alternate rendering with configurable data 
+  - Demo V1.4: Augment the alternate rendering with NPTEL page-extracted data
 + Demo V2.0: Make the Renarration more intelligent by utilizing a backend
   knowledge base which leverages NPTEL, Virtual Labs and GATE-syllabus.  
-  ++ Demo V2.1: 
+  - Demo V2.1: 
 
 
 * Demo V1.0
