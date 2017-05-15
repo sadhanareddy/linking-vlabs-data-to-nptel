@@ -12,7 +12,6 @@
                 var anchortag = document.createElement('a');
                 anchortag.setAttribute('href',"");
                 anchortag.innerHTML = newlist[i];
-                alert(anchortag);
                 document.getElementById('mySidenav').appendChild(anchortag);
             }
         }
