@@ -30,6 +30,7 @@ Our approach is to develop the demo in increments.
 
 
 * Demo V1.0
+Here is the [[workplan.org][link]] for the v1.0 documentation.
 
 * Demo V2.0
 In this demo we are trying to make the renarration intelligent by associating
