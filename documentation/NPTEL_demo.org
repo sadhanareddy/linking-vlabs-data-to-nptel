@@ -38,4 +38,4 @@ it with a backend Knowledge Base (KB). The KB will be based on a conceptual
 representation of information that links and instanciates NPTEL, VLABs, and
 GATE-Syllabus information. In our demo implementation, we aim to scope the work
 down to simple representative samples only. 
-Here is the [[ontologies_development.org][link]] for the documentation. 
+Here is the [[ontologies_development.org][link]] of the v2.0 documentation. 
